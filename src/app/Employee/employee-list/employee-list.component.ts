@@ -62,7 +62,7 @@ export class EmployeeListComponent {
 
 protected editEmployee(emp: any) {
   this.employeeStateService.setSelectedEmployee(emp);
-  this.router.navigate(['/employee-details']); // or your actual route
+  this.router.navigate(['/employee-details']);
 }
 
 

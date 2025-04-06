@@ -8,7 +8,7 @@
         <!-- Employee list category-wise -->
         <div class="employee-list-details" *ngIf="employees()[key].length">
           <div
-            class="detail swipe-wrapper"
+            class="detail"
             *ngFor="let emp of employees()[key]; trackBy: trackByEmployeeId"
           >
             <div class="item">
